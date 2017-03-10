@@ -41,7 +41,7 @@ if (system.args.length <= 3) {
       timer = window.setInterval(function() {
         iNum++;
         window.document.body.scrollTop = sH/count*iNum;
-        if (iNum == count) {render
+        if (iNum == count) {
           clearInterval(timer);
         }
       }, 30);
