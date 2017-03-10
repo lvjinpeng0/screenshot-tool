@@ -1,0 +1,14 @@
+{
+  "name": "screen_capture",
+  "version": "1.0.0",
+  "description": "screen_capture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jerome",
+  "license": "ISC",
+  "devDependencies": {
+    "node-schedule": "^1.2.0"
+  }
+}
